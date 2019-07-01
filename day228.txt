@@ -1,0 +1,7 @@
+Given a list of numbers, create an algorithm that arranges them in order to form the largest possible integer. 
+For example, given [10, 7, 76, 415], you should return 77641510
+
+Sort the numbers by biggest continuous number.
+choose the number that first number has biggest magnitude. if tie go to next number.
+if one has no number to compare (7 vs 76) see if there is a number that has bigger first number than 6. remember to include itself.
+
